@@ -31,7 +31,7 @@ public class testweblogin {
         //        driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(1000);
-        
+
         driver.findElement(By.id("identifierId")).clear();
         driver.findElement(By.id("identifierId")).sendKeys("Contactkrishnag@gmail.com");
         driver.findElement(By.id("identifierId")).sendKeys(Keys.ENTER);
