@@ -38,7 +38,7 @@ public class testweblogin {
       //  driver.findElement(By.className("RveJvd snByac")).click();
         Thread.sleep(1000);
 
-        driver.findElement(By.name("password")).sendKeys("lonelyplanet");
+        driver.findElement(By.name("password")).sendKeys("12345");
         Thread.sleep(2000);
         driver.findElement(By.name("password")).sendKeys(Keys.ENTER);
         Thread.sleep(2000);
